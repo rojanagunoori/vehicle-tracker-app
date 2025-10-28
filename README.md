@@ -10,6 +10,8 @@ An interactive **vehicle tracking and navigation web application** built with **
   <img src="public/photo-1.png" alt="Main Map View" width="700"/>
   <br/>
   <img src="public/photo-2.png" alt="Playback and Telemetry Panel" width="700"/>
+  <img src="public/photo-3.png" alt="Playback and Telemetry Panel" width="700"/>
+    <img src="public/photo-4.png" alt="Playback and Telemetry Panel" width="700"/>
 </p>
 
 ---
