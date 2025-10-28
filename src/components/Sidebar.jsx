@@ -412,7 +412,7 @@ const fetchSuggestions = async (query) => {
           className="space-y-3"
         >
          {points.map((p, i) => (
-           <div key={i} className="relative mb-2 overflow-visible">
+           <div key={i} className="relative mb-2 w-full overflow-visible">
   <div key={i} className="flex items-center gap-2">
     <input
       className="flex-1 p-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-400"
@@ -442,7 +442,7 @@ const fetchSuggestions = async (query) => {
   </div>
   {/* 🔽 Suggestions dropdown */}
   {activeField === i && suggestions.length > 0 && p.value && (
-      <div className="absolute z-50 bg-white border border-gray-200 rounded-lg shadow-ld w-full mt-1 max-h-48 overflow-y-auto">
+      <div className="absolute left-0 right-0 z-50 bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-48 overflow-y-auto">//"absolute z-50 bg-white border border-gray-200 rounded-lg shadow-ld w-full mt-1 max-h-48 overflow-y-auto">
         {suggestions.map((s, idx) => (
           <button
             key={idx}

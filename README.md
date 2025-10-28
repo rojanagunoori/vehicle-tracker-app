@@ -2,6 +2,18 @@
 
 An interactive **vehicle tracking and navigation web application** built with **React, Leaflet, and OSRM**, allowing users to search places, get driving/biking/walking routes, visualize playback animation along the route, and monitor live telemetry (speed, distance, and coordinates).
 
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="public/photo-1.png" alt="Main Map View" width="700"/>
+  <br/>
+  <img src="public/photo-2.png" alt="Playback and Telemetry Panel" width="700"/>
+</p>
+
+---
+
 🌐 **Live Demo:**  
 🔗 [https://vehicle-tracker-app-roja.netlify.app/](https://vehicle-tracker-app-roja.netlify.app/)
 
