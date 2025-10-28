@@ -334,6 +334,7 @@ const fetchSuggestions = async (query) => {
           animate={{ opacity: 1, y: 0 }}
           className="space-y-3"
         >
+          <div className="relative w-full">
           <input
             className="w-full p-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-400"
             placeholder="Enter place or lat,lng"
@@ -363,7 +364,7 @@ const fetchSuggestions = async (query) => {
       </button>
     ))}
   </div>
-)}
+)}</div>
 
           <button
             onClick={handleSearch}
@@ -411,7 +412,7 @@ const fetchSuggestions = async (query) => {
           className="space-y-3"
         >
          {points.map((p, i) => (
-           <div key={i} className="relative mb-2">
+           <div key={i} className="relative mb-2 overflow-visible">
   <div key={i} className="flex items-center gap-2">
     <input
       className="flex-1 p-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-400"
@@ -441,7 +442,7 @@ const fetchSuggestions = async (query) => {
   </div>
   {/* 🔽 Suggestions dropdown */}
   {activeField === i && suggestions.length > 0 && p.value && (
-      <div className="absolute z-20 bg-white border border-gray-200 rounded-lg shadow-md w-full mt-1 max-h-48 overflow-y-auto">
+      <div className="absolute z-50 bg-white border border-gray-200 rounded-lg shadow-ld w-full mt-1 max-h-48 overflow-y-auto">
         {suggestions.map((s, idx) => (
           <button
             key={idx}
