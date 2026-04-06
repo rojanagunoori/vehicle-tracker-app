@@ -197,7 +197,13 @@ netlify deploy
 Frontend Developer | GIS & Mapping Enthusiast
 
 🌐 **Live Demo:** [vehicle-tracker-app-roja.netlify.app](https://vehicle-tracker-app-roja.netlify.app)  
-💻 **GitHub:** [@rojanagunoori](https://github.com/rojanagunoori)
+- 📧 Email: [nagunooriroja@gmail.com](mailto:nagunooriroja@gmail.com)
+- 🌐 GitHub: [https://github.com/rojanagunoori](https://github.com/rojanagunoori)
+- 🌐 LinkedIn: [https://www.linkedin.com/in/nagunoori-roja-51b936267/](https://www.linkedin.com/in/nagunoori-roja-51b936267/)
+- 🌐 Personal Portfolio: [portfolio-roja.netlify.app](https://portfolio-roja.netlify.app/)
+- 🌐 LeetCode: [https://leetcode.com/u/dSdsi6XkI8/](https://leetcode.com/u/dSdsi6XkI8/)
+- 🌐 Kaggle: [https://www.kaggle.com/nagunooriroja](https://www.kaggle.com/nagunooriroja)
+
 
 ## 📜 License
 
